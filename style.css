@@ -1,19 +1,24 @@
-body {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    font-family: 'Lato', sans-serif;
-    background-color: peachpuff;
-    color: darkgreen;
+.jsForm {
+  justify-content: center;
+  padding: 50px;
+  background-color: antiquewhite;
+  font-family: cursive;
+  color: brown;
 }
+div#card-sec {
+  padding: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-
-section {
-    display: flex;
-}
-
-form {
-    display:flex;
-    justify-content: center;
-    flex-direction: column;
+#greetingOK,
+#event-name,
+#message-paragraph {
+  color: rgb(36, 8, 8);
+  font-weight: bold;
+  width: 90%;
+  padding: 20px;
+  text-align: center;
+  font-size: 30px;
+  background-color: beige;
 }
